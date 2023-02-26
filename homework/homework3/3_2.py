@@ -13,7 +13,7 @@ list_1 = [0]*len(list)
 x = int(input("Введите число="))
 list_1 = [list[i]-x for i in range( len(list))] # вычитаем введееное значение из элементов массива
 print(list) 
-# list_1 = [list_1[i]*(-1) for i in range(len(list_1)) if list_1[i]<0] -почему то при такой записи все значения >=0 удаллились из массива
+# list_1 = [list_1[i]*(-1) for i in range(len(list_1)) if list_1[i]<0] -почему то при такой записи все значения >=0 удаллились из массива?
 for i in range(len(list_1)):   # если значение меньше 0  умножаем на -1
     if list_1[i]<0:
         list_1[i]*=-1
