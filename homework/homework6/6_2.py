@@ -14,4 +14,4 @@ print(a1)
 print([i for i in range(len(a1)) if min <= a1[i] and a1[i] <= max])
 # for i in range(len(a1)):
 #     if min <= a1[i] and a1[i] <= max:
-#         print(i )
+#         print(i)
