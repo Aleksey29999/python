@@ -117,24 +117,7 @@ def Delete():
         
         return 0
 
-    # global all_data, last_id
-    # element=[]
-    # count=0
-    # delit_people = str(input('введите Имя или Фамилию человека: ',))
-    # for i in range(len(all_data)):
-    #     element= all_data[i]
-    #     for j in range(len(element)):
-    #         if delit_people == element[j]:
-    #             all_data.pop(i)
-    #             count=1
-    # show_all()
-    # if count ==1:
-    #     print("Удаление контакта " + delit_people + " прошло успешно \n")
-    # else:
-    #     print("Удаление контакта " + delit_people + " не выполнено  \n")
-    #     return 0    
-    # record_base()
-    
+      
 # Внесение изменений- меню
 def Change_menu():
     play = True
